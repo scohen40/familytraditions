@@ -20,6 +20,13 @@ Family Traditions is a React Native application designed to help families preser
 - **Expo**: Developed with Expo, which simplifies the development process.
 - **GPT**: Uses GPT-4 cooklang Agent for recipe instructions processing.
 
+## Database Schema
+
+Below is the database schema diagram for our project:
+
+![Database Schema](images/FamilyTraditionsDD.png)
+
+
 ## Installation and Setup
 
 To run the app locally:
