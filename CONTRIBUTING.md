@@ -2,10 +2,6 @@
 
 Thank you for your interest in contributing to our project! We value your contributions and want to ensure a welcoming and productive environment for all our contributors. Please follow these guidelines to contribute effectively to our project.
 
-## Code of Conduct
-
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to abide by its principles.
-
 ## How to Contribute
 
 1. **Report Bugs**: If you find a bug, please open an issue in our GitHub repository, providing a clear description and steps to reproduce it.
