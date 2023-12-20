@@ -33,9 +33,19 @@ const { sql, close } = require('./db.js'); // Adjust the path as necessary
 
 // displayUsers();
 
+async function query(sqlStatement) {
+    // console.log(sqlStatement.strings[0]); // Log only the query string
+    const result = await sql`${sqlStatement}`;
+    console.log(JSON.stringify(result))
+    return result;
+  }
+
 async function main() {
     try {
         // await displayUsers();
+        await query(sql`SELECT now(), CURRENT_TIMESTAMP;`);
+        // await query(sql`SELECT ;`);
+        // console.log(JSON.stringify(this_time));
     } catch (error) {
         console.error("Error:", error);
     } finally {
