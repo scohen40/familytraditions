@@ -24,7 +24,7 @@ Family Traditions is a React Native application designed to help families preser
 
 Below is the database schema diagram for our project:
 
-![Database Schema](images/FamilyTraditionsDD.png)
+![Database Schema](images/FamilyTraditionsDD_02.png)
 
 
 ## Installation and Setup
