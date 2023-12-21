@@ -31,7 +31,7 @@ async function close() {
 
 module.exports = {
   sql,
-  close
+  close,
 };
 // module.exports = sql;
 
